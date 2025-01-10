@@ -1,0 +1,57 @@
+# File di sistema di macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Cartelle di sistema di macOS
+**/.DS_Store
+**/._*
+**/.Spotlight-V100
+**/.Trashes
+**/.fseventsd
+
+# File di ambiente e configurazioni locali
+.env
+.venv
+venv/
+env/
+
+# File di cache e log
+*.log
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# File di editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# File di Jupyter Notebook
+.ipynb_checkpoints/
+
+# File di virtualenv
+bin/
+include/
+lib/
+lib64/
+pip-selfcheck.json
+pyvenv.cfg
+
+# File di Python
+*.py[cod]
+*$py.class
+*.so
+.Pythonsource venv/bin/activate
+
+# Directory del database e file FAISS
+db/
+*.faiss
+temp_audio/
+logs/
